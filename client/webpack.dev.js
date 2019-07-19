@@ -5,7 +5,8 @@ module.exports = merge(common, {
   mode: 'development',
   devServer:{
     contentBase: './public',
-    port: 3005
+    port: 3005,
+    historyApiFallback: true
   }
 })
 
